@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  home: MyString
+  about: MyText
+  artists: MyString
+  careers: MyText
+  news: MyText
+  company: MyString
+  getstarted: MyString
+
+two:
+  home: MyString
+  about: MyText
+  artists: MyString
+  careers: MyText
+  news: MyText
+  company: MyString
+  getstarted: MyString
