@@ -1,132 +1,19 @@
-
-<style>
-.body{
-  background: url("http://hdwpro.com/wp-content/uploads/2019/01/Nice-Nature-4K.jpg");
-  background-size: cover; 
-  height: 30rem;
-   }
-   
-  .image-container1{
-  background: url("https://cdn.wallpapersafari.com/48/11/uRFcp7.jpeg");
-  background-size: cover; 
-  height: 14rem;
-   }
-
-   .image-container2{
-  background: url("https://wallpapertag.com/wallpaper/full/d/9/3/518236-free-cool-backgrounds-for-laptops-1920x1080-for-mobile.jpg");
-  background-size: cover; 
-  height: 14rem;
-   }
-
-.image-container3{
-  background: url("https://wallpapercave.com/wp/wp1954191.jpg");
-  background-size: cover; 
-  height: 14rem;
-   }
-
-.navbar {
-    background-color: transparent; 
-    color: #FFFFFF; 
-}
-.navbar-brand {
-    color: #FFFFFF; 
-}
-.navbar-nav .nav-link {
-    color: #FFFFFF !important; 
-}
-.navbar-toggler-icon {
-    background-color: #FFFFFF; 
-}
-.navbar-toggler {
-    border: 1px solid #FFFFFF;
-}
-.rectangular-textbox {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-start;
-      position: absolute;
-      width: 748px;
-      height: 411px;
-      left: 72px;
-      top: 85px;
-      padding:0px;
-      gap: 32px;
-      color: #FFFFFF;
-      background-color: rgba(255, 255, 255, 0);
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-   .box-title {
-      margin-top: 5px;
-      font-size: 56px; 
-      font-weight: bold;
-      color: #FFFFFF;
-      margin-bottom: 10px;
-    }
-    
-    .box-description {
-    width: 528px;
-    height: 60px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 30px;
-    color: #333333; 
-    color: #FFFFFF;
-     }
-
-    .learn-more-button {
-            width: 153px;
-            height: 42px;
-            background-color: #333333;
-            color: #FFF;
-            font-family: 'Inter';
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-        .get-started-button {
-            width: 153px;
-            height: 42px;
-            background-color: #333333;
-            color: #FFFFFF; 
-            font-family: 'Inter';
-            font-weight: 500;
-            font-size: 16px;
-            line-height: 20px;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-
-
-</style>
-
-<div><div class= "body">
+<div>
+ <div class= "body">
   <nav class="navbar navbar-expand-lg navbar-light">
+   <a class="navbar-brand" href="#">ART</a>
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">ART</a>
         <div class="container mt-2 mb-2 ml-2 mr-2">
           <div class="row gx-3">
             <div class="col-md-2">
-            <div class="rectangular-textbox">
-                <div class="rectangular-box">
-                <p class="box-title">Art pieces made easy accessible for everyone</p>
-                <p class="box-description">Learn, buy and trade art pieces of your favorite artist around the world by using crypto currencies.</p>
-                <button class="learn-more-button">Learn More</button>
-              </div>
-              </div>
-            </div>
+             </div>
             <div class="col-md-6 col-sm-8 order-md-last">
             </div>
             <div class="col-md-2 col-sm-8 order-md-last">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
-              </button>
+               </button>
+
               <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-right">
                   <li class="nav-item">
@@ -148,9 +35,14 @@
                     <a class="nav-link" href="#">Company</a>
                   </li>
                   <li class="nav-item">
-                    <button class="learn-more-button">GetStarted</button>
+                    <button class="get-started-button">GetStarted</button>
                   </li>
                 </ul>
+                <div class="ml-left">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -159,11 +51,24 @@
     </nav> 
   </div>
 
-
-  <div>
-    <div class="container mt-4">
-    <h1>Newest reads</h1>
+<div class="container">
     <div class="row">
+        <div class="col-md-6">
+            <div class="rectangular-textbox">
+                <div class="rectangular-box">
+                    <p class="box-title">Art pieces made easy accessible for everyone</p>
+                    <p class="box-description">Learn, buy and trade art pieces of your favorite artist around the world by using cryptocurrencies.</p>
+                    <button class="learn-more-button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+   <div class="container mt-4">
+    <h1>Newest reads</h1>
+     <div class="row">
       <div class="col-md-4">
         <div class="card mb-4">
           <div class="card-body">
@@ -188,11 +93,12 @@
         </div>
       </div>
 
-      <div class="col-md-4">
-        <div class="card mb-4">
-          <div class="card-body">
-            <div class="rectangle-7"></div>
-            <div class="image-container3"></div>
+
+<div class="col-md-4">
+ <div class="card mb-4">
+    <div class="card-body">
+      <div class="rectangle-7"></div>
+         <div class="image-container3"></div>
             <p class="date">5 August, 2022</p>
             <h5 class="card-content">Picasso’s muse as sea creature—will it break $100m at Sotheby's New York sale?</h5>
             <p class="read-more text-start text-warning">Read more ->></p>
@@ -202,4 +108,201 @@
     </div>
   </div>
 </div>
-               
+
+
+<style>
+
+.body{
+  background: url("http://hdwpro.com/wp-content/uploads/2019/01/Nice-Nature-4K.jpg");
+  background-size: cover;
+  background-position: center; 
+  height: 80vh;
+  position: relative;
+   }
+   
+.navbar-toggler {
+    position: absolute;
+    width: 2.1875rem; 
+    height: 2.1875rem; 
+    left: 44.5rem; 
+    right: 5rem; 
+    top: 1.125rem; 
+    cursor: pointer;
+    background-color: #00000; 
+    border: none;
+    padding: 0;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    width: 1.5rem; 
+    height: 1.5rem; 
+    left: 85%; 
+  }
+}
+
+.navbar-toggler-bar {
+    width: 1.875rem; 
+    height: 0.1875rem; 
+    background-color: #FFFFFF; 
+    margin: 0.375rem 0; 
+}
+
+.navbar-brand {
+  margin-left: 20px; 
+}
+
+ /* .navbar-expanded {
+    background-color: #000 !important; 
+    position: absolute;
+    width: 100%;
+    top: 3.125rem; 
+  } */
+
+
+/* .navbar-content {
+  padding: 1rem;
+  color: #FFFFFF;
+  background-color: #000000; 
+} */
+
+  .image-container1{
+  background: url("https://cdn.wallpapersafari.com/48/11/uRFcp7.jpeg");
+  background-size: cover; 
+  height: 14rem;
+   }
+
+   .image-container2{
+  background: url("https://wallpapertag.com/wallpaper/full/d/9/3/518236-free-cool-backgrounds-for-laptops-1920x1080-for-mobile.jpg");
+  background-size: cover; 
+  height: 14rem;
+   }
+
+.image-container3{
+  background: url("https://wallpapercave.com/wp/wp1954191.jpg");
+  background-size: cover; 
+  height: 14rem;
+   }
+   
+.navbar {
+    background-color: transparent; 
+    color: #FFFFFF; 
+}
+.navbar-brand {
+    color: #FFFFFF; 
+}
+.navbar-nav .nav-link {
+    color: #FFFFFF !important; 
+}
+.navbar-toggler-icon {
+    background-color: #FFFFFF; 
+}
+.navbar-toggler {
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF; 
+}
+
+.rectangular-textbox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    position: absolute;
+    width: 100%;
+    width: 46.75rem; 
+    height: auto;
+    /* height: 25.6875rem;  */
+    left: 4.5rem; 
+    top: 7.3125rem; 
+    padding: 2rem;
+    gap: 2rem; 
+    color: #FFFFFF;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 0.5rem; 
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1); 
+}
+@media (max-width: 767px) {
+  .rectangular-textbox {
+    left: 1rem; 
+    max-width: 50%; 
+    padding: 1rem; 
+  }
+}
+   .box-title {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.3125rem; 
+    font-size: 3.5rem; 
+    font-weight: bold; */
+    color: #FFFFFF;
+    margin-bottom: 0.625rem; 
+   }
+
+  @media (max-width: 767px) {
+  .box-title {
+    font-size: 1rem;
+    max-width: 50%; 
+    flex-wrap: nowrap;
+  }
+}
+    .box-description {
+    width: 100%;
+    width: 33rem; 
+    height: 3.75rem; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.125rem; 
+    line-height: 1.875rem; 
+    color: #FFFFFF;
+}
+@media (max-width: 767px) {
+  .box-description {
+    max-width: 50%; 
+    font-size: 1rem; 
+  }
+}
+   .learn-more-button {
+    width: 100%;
+    width: 9.5625rem; 
+    height: 2.625rem; 
+    background-color: #333333;
+    color: #FFF;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1rem; 
+    line-height: 1.25rem; 
+    border: none;
+    border-radius: 0.5rem; 
+    cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .learn-more-button {
+    margin-top: 1.3125rem; 
+    max-width: 50%; 
+    font-size: 0.9rem; 
+  }
+}
+.navbar-brand {
+      font-size: 1.5rem; 
+      font-weight: bold; 
+      color: #FFFFFF; 
+}
+
+
+/* .navbar-collapse {
+  top: 5rem; 
+  left: 40rem;
+  right: 0rem;
+  /* z-index: 1000; */
+/* }
+@media (max-width: 768px) {
+  .navbar-collapse {
+    top: 0;
+    left: 100;
+    right: auto;
+  }
+} */ 
+
+</style>
